@@ -1,0 +1,12 @@
+[Unit]
+Description=Turn off touch during stylus is in proximity
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /usr/lib/systemd/system/touchscreen_control.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
+
