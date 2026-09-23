@@ -1,3 +1,6 @@
+**DEPRECATED** — code moved to ditschi/dotfiles `ansible/roles/stylus_touch_guard`.
+
+**DEPRECATED** — see root README. Code lives in ditschi/dotfiles `ansible/roles/stylus_touch_guard`.
 # Yoga L13 Thinkpad
 
 Helpers for the Thinkpad Yoga L13
